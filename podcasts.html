@@ -3,115 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velvett Vibes | Our Podcasts</title>
+    <title>Our Podcasts | Velvett Vibes</title>
     <link rel="icon" type="image/jpeg" href="velvett logo.JPG">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #ffffff;
-        }
-        header {
-            background-color: #1a1a1a;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid #b392ac;
-        }
-        .header-brand {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-            margin-bottom: 15px;
-        }
-        .header-logo {
-            height: 60px;
-            width: auto;
-            border-radius: 50%;
-            border: 2px solid #b392ac;
-        }
-        .brand-title {
-            color: #e0b1cb;
-            margin: 0;
-            font-size: 1.8rem;
-            font-weight: bold;
-        }
-        nav a {
-            color: #b392ac;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #e0b1cb;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        .podcast-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-        }
-        .podcast-card {
-            background-color: #1e1e1e;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        h2 {
-            color: #e0b1cb;
-            margin-top: 0;
-        }
-        .thumb-wrap {
-            margin: 15px 0;
-            text-align: center;
-        }
-        .thumb-wrap img {
-            width: 100%;
-            max-width: 100%;
-            height: auto;
-            border-radius: 6px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-            transition: transform 0.2s;
-        }
-        .thumb-wrap img:hover {
-            transform: scale(1.01);
-        }
-        .yt-link {
-            display: inline-block;
-            color: #121212;
-            background-color: #b392ac;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-            text-align: center;
-            margin-top: 15px;
-            transition: background-color 0.3s;
-        }
-        .yt-link:hover {
-            background-color: #e0b1cb;
-        }
-        footer {
-            background-color: #1a1a1a;
-            text-align: center;
-            padding: 20px 0;
-            color: #777;
-            margin-top: 40px;
-            border-top: 1px solid #333;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #121212; color: #ffffff; }
+        header { background-color: #1a1a1a; padding: 20px; text-align: center; border-bottom: 2px solid #b392ac; }
+        .header-brand { display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 15px; }
+        .header-logo { height: 60px; width: auto; border-radius: 50%; border: 2px solid #b392ac; }
+        .brand-title { color: #e0b1cb; margin: 0; font-size: 1.8rem; font-weight: bold; }
+        nav a { color: #b392ac; text-decoration: none; margin: 0 10px; font-weight: bold; }
+        nav a:hover { color: #e0b1cb; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .podcast-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; }
+        .podcast-card { background-color: #1e1e1e; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); display: flex; flex-direction: column; justify-content: space-between; }
+        h2 { color: #e0b1cb; margin-top: 0; }
+        .thumb-wrap img { width: 100%; height: auto; border-radius: 6px; margin: 15px 0; border: 1px solid #b392ac; }
+        .yt-link { display: inline-block; color: #121212; background-color: #b392ac; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center; }
+        .yt-link:hover { background-color: #e0b1cb; }
+        footer { background-color: #1a1a1a; text-align: center; padding: 20px 0; color: #777; margin-top: 40px; border-top: 1px solid #333; }
     </style>
 </head>
 <body>
-
     <header>
         <div class="header-brand">
             <img src="velvett logo.JPG" alt="Velvett Vibes Logo" class="header-logo">
@@ -119,27 +31,28 @@
         </div>
         <nav>
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
             <a href="podcasts.html">Podcasts</a>
+            <a href="music-videos.html">Music Videos</a>
             <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <div class="container">
         <h1 style="text-align: center; color: #e0b1cb; margin-bottom: 40px;">Velvett Vibes Podcast Studio</h1>
-        
         <div class="podcast-grid">
-            
             <div class="podcast-card">
                 <div>
                     <h2>Inside-Out</h2>
                     <p>Candid expressions and high-profile storytelling bringing out raw, untold human experiences from special lifestyle guests.</p>
                     <div class="thumb-wrap">
                         <a href="https://www.youtube.com/watch?v=f6OkadT87uI&list=PLbkARvvXZg8hSTZeruDWY0Ez3Z-sGauH1&index=2" target="_blank" rel="noopener noreferrer">
-                            <img src="https://i.ytimg.com/vi/f6OkadT87uI/maxresdefault.jpg" alt="Inside Out Episode Thumbnail">
+                            <img src="https://i.ytimg.com/vi/f6OkadT87uI/maxresdefault.jpg" alt="Inside Out Episode">
                         </a>
                     </div>
                 </div>
-                <a href="https://www.youtube.com/watch?v=f6OkadT87uI&list=PLbkARvvXZg8hSTZeruDWY0Ez3Z-sGauH1&index=2" target="_blank" rel="noopener noreferrer" class="yt-link">Listen and watch on YouTube</a>
+                <a href="https://www.youtube.com/watch?v=f6OkadT87uI&list=PLbkARvvXZg8hSTZeruDWY0Ez3Z-sGauH1&index=2" target="_blank" rel="noopener noreferrer" class="yt-link">Watch on YouTube</a>
             </div>
 
             <div class="podcast-card">
@@ -148,32 +61,14 @@
                     <p>Engaging local and political updates, breaking down significant societal pathways with analytical global community thinkers.</p>
                     <div class="thumb-wrap">
                         <a href="https://www.youtube.com/watch?v=vTZWljmIA1o&list=PLbkARvvXZg8if0yjo0FRUnzJ3F7UTpwrT" target="_blank" rel="noopener noreferrer">
-                            <img src="https://i.ytimg.com/vi/vTZWljmIA1o/maxresdefault.jpg" alt="Chitchat Congressional Candidate Thumbnail">
+                            <img src="https://i.ytimg.com/vi/vTZWljmIA1o/maxresdefault.jpg" alt="Chitchat Episode">
                         </a>
                     </div>
                 </div>
-                <a href="https://www.youtube.com/watch?v=vTZWljmIA1o&list=PLbkARvvXZg8if0yjo0FRUnzJ3F7UTpwrT" target="_blank" rel="noopener noreferrer" class="yt-link">Listen and watch on YouTube</a>
+                <a href="https://www.youtube.com/watch?v=vTZWljmIA1o&list=PLbkARvvXZg8if0yjo0FRUnzJ3F7UTpwrT" target="_blank" rel="noopener noreferrer" class="yt-link">Watch on YouTube</a>
             </div>
-
-            <div class="podcast-card">
-                <div>
-                    <h2>Numerology @ VVE</h2>
-                    <p>Unlocking numbers, calculations, and strategic lifestyle patterns that direct paths, behavior balances, and deep personal transformations.</p>
-                    <div class="thumb-wrap">
-                        <a href="https://www.youtube.com/watch?v=eWHRI824tLc" target="_blank" rel="noopener noreferrer">
-                            <img src="https://i.ytimg.com/vi/eWHRI824tLc/maxresdefault.jpg" alt="Numerology Secrets Episode Thumbnail">
-                        </a>
-                    </div>
-                </div>
-                <a href="https://www.youtube.com/watch?v=eWHRI824tLc" target="_blank" rel="noopener noreferrer" class="yt-link">Listen and watch on YouTube</a>
-            </div>
-
         </div>
     </div>
-
-    <footer>
-        <p>&copy; 2026 Velvett Vibes Entertainment. All Rights Reserved.</p>
-    </footer>
-
+    <footer><p>&copy; 2026 Velvett Vibes Entertainment. All Rights Reserved.</p></footer>
 </body>
 </html>
